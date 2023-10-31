@@ -1,0 +1,35 @@
+@import '../../variaveis/index';
+
+.div-login-register {
+
+    .h4-login-register {
+        width: 89%;
+        text-align: left;
+        font: $irishGrover-25;
+    }
+
+    .input-login-register {
+        width: 250px;
+        height: 45px;
+        border-radius: 10px;
+        border: 1px solid black;
+        margin-bottom: 5px;
+        font: $irishGrover-20;
+    }
+}
+
+@media (min-width: 3000px) {
+
+    .div-login-register {
+
+        .h4-login-register {
+            font: $irishGrover-25;
+        }
+
+        .input-login-register {
+            font: $irishGrover-40;
+            width: 500px;
+            height: 90px;
+        }
+    }
+}
