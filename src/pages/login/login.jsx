@@ -3,6 +3,7 @@ import './login.scss';
 
 import Input from "../../components/login-cadastro/input/input";
 import Button from "../../components/login-cadastro/button/button";
+import { Link } from 'react-router-dom';
 
 export default function Login() {
     return (
@@ -21,7 +22,7 @@ export default function Login() {
                         <Input title="E-mail" type="text"/>
                         <Input title="Senha" type="password"/>
                         <Button action="Entrar"/>
-                        <a className="a-login" href="/">Não possui conta? Cadastre-se aqui</a>
+                        <Link className="a-login" href="/cadastro">Não possui conta? Cadastre-se aqui</Link>
 
                     </section>
 
