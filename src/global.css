@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+/* 
+  Com o font-size em 62.5%, multiplicando pelo tamanho padrão da fonte que é 16px
+  Teriamos 16*0,625 = 10 e com isso 1 rem equivale a 10px ao invez de 1rem valer 16px
+  0.1rem = 1px
+  1rem = 10px
+  10rem = 100px
+  100rem = 1000px 
+  Desta forma fica muito mais facil de fazer as medidas relativas das letras
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
