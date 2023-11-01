@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './global.css';
 
 import Login from './pages/login/login';
-import Site from './pages/site/site';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +12,6 @@ root.render(
       <Routes>
 
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Site />} />
         
       </Routes>
     </BrowserRouter>

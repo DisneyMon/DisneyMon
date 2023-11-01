@@ -1,0 +1,28 @@
+@import '../../variaveis/index';
+
+.div-login-register {
+
+    .button-login-register {
+        width: 150px;
+        height: 35px;
+        border-radius: 8px;
+        font: $irishGrover-25;
+        border: 1px solid black;
+        margin: 20px 0px;
+
+    }
+}
+
+@media (min-width: 3000px) {
+
+    .div-login-register {
+
+        .button-login-register {
+            font: $irishGrover-50;
+            width: 300px;
+            height: 70px;
+
+        }
+    }
+
+}
