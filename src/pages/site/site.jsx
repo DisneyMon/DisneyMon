@@ -4,8 +4,9 @@ import './site.scss';
 export default function Site() {
     return (
 
-        <body>
-            <header>
+        <div className='site-page'>
+            <header className='header-site-section1'>
+                <img className='img-site-section img-site-section1-aleatoria' src="/assets/images" alt="" />
                 <nav>
                     <h1>
                         Logo
@@ -42,12 +43,14 @@ export default function Site() {
 
                 </div>
 
+                <img className='img-site-section img-site-section2-rosinha' src="/assets/images/site/rosinha.gif" alt="" />
+
 
 
             </section>
 
             <script src="main.js"></script>
-        </body>
+        </div>
 
 
 
