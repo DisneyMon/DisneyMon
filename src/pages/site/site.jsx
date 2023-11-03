@@ -46,7 +46,9 @@ export default function Site() {
 
             </section>
 
-            <script src="main.js"></script>
+            <script>
+                
+            </script>
         </body>
 
 
