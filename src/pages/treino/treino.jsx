@@ -22,6 +22,12 @@ export default function Treino() {
 
             </section>
 
+            <section className='section-section3'>
+
+
+
+            </section>
+
         </div>
 
     )

@@ -5,6 +5,7 @@ import './global.css';
 
 import Login from './pages/login/login';
 import Site from './pages/site/site';
+import Treino from './pages/treino/treino';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
 
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Site />} />
+        <Route path="/treino" element={<Treino />} />
         
       </Routes>
     </BrowserRouter>

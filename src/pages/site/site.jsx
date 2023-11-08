@@ -1,6 +1,8 @@
 import React from 'react';
 import './site.scss';
 
+import Card from '../../components/site/card/card';
+
 export default function Site() {
     return (
 
@@ -46,45 +48,18 @@ export default function Site() {
 
                 </div>
 
-            </section>
-
-            <section class="conheca-os-produtos">
                 <h3 class="h3-conheca-produtos">Conheça Nossos Produtos</h3>
 
-                <div class="card-container">
-                    <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                        <figure><img src="/assets/images/site/pelucia.webp" alt="pelúcia" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Pokémon - Pelúcia De 20 Cm - Pikachu</h2>
-                            <p>R$ 169,99</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-primary">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
+            </section>
 
-                    <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                        <figure><img src="/assets/images/site/pelucia.webp" alt="pelúcia" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Pokémon - Pelúcia De 20 Cm - Pikachu</h2>
-                            <p>R$ 169,99</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-primary">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
+            
+            <section class="conheca-os-produtos">
+                
 
-                    <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                        <figure><img src="/assets/images/site/pelucia.webp" alt="pelúcia" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Pokémon - Pelúcia De 20 Cm - Pikachu</h2>
-                            <p>R$ 169,99</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-primary">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <Card/>
+                <Card/>
+                <Card/>
+
             </section>
 
 

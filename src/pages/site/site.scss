@@ -64,20 +64,20 @@ nav:hover span a {
 
 
 .About {
-
-
     display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #FBFFD0;
     color: black;
-    padding: 110px 120px;
     font-size: 16px;
 
 
     .content-container {
         display: flex;
+        width: 100%;
+        display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
         text-align: center;
     }
 
@@ -226,6 +226,10 @@ nav:hover span a {
 }
 
 .conheca-os-produtos {
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    display: flex;
     background-color: #FBFFD0;
     text-align: center;
 
@@ -245,7 +249,7 @@ nav:hover span a {
 .card-container {
     display: flex;
     justify-content: space-evenly;
-
+    
 
 }
 

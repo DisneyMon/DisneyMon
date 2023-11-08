@@ -7,21 +7,37 @@
 
     .figure-section2 {
         width: 100%;
-        height: 15.25%;
+        height: 240px;
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
         .img-section2-logo {
-            height: 95%;
-            
+            height: 100%;
+
         }
     }
 
-    .section-section2-texto{
+    .section-section2-texto-img {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin-top: 20px;
+        text-align: center;
+
+        .figure-section2-imgs {
+            width: 250px;
+            height: 250px;
+            overflow-y: hidden;
+
+            .img-section2-pokemon {
+                width: 100%;
+                height: 100%;
+            }
+
+            .img-section2-pikachu {}
+        }
 
         .p-section2 {
             width: 43.87%;
@@ -30,5 +46,150 @@
 
     }
 
+    .h1-produtos {
+        margin-top: 10px;
+        color: #014C8D;
+        font: $irishGrover-96;
+        text-align: center;
+        text-decoration-line: underline;
+    }
 
+    .section-section2-cards {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+        .section-section2-cards-container {
+            min-height: 350px;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .section-section2-cards-container-2cards {
+            display: none;
+        }
+
+        .section-section2-cards-container-1card {
+            display: none;
+        }
+
+        .div-section2-area-bolinha {
+            width: 80px;
+            display: flex;
+            align-items: center;
+
+            .div-section2-bolinha {
+                width: 67px;
+                height: 67px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                border-radius: 100px;
+                filter: drop-shadow(7px 7px 4px rgba(0, 0, 0, 0.25));
+
+                .div-section2-seta-esquerda {
+                    border-top: 10px solid transparent;
+                    border-bottom: 10px solid transparent;
+                    border-right: 22px solid black;
+                }
+
+                .div-section2-seta-direita {
+                    border-top: 10px solid transparent;
+                    border-bottom: 10px solid transparent;
+                    border-left: 22px solid black;
+                }
+            }
+
+            .div-section2-bolinha:hover {
+                cursor: pointer;
+                filter: none;
+            }
+        }
+    }
+}
+
+@media (min-width: 3000px) {
+
+    
+    
+}
+
+@media (max-width: 1250px) {
+
+    .section2 {
+    
+        .section-section2-cards {
+    
+            .section-section2-cards-container {
+                display: none;
+            }
+    
+            .section-section2-cards-container-2cards {
+                display: flex;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .section2 {
+        
+            .figure-section2 {
+                
+        
+                .img-section2-logo {
+                    width: 80%;
+                    height: 80%;
+                    min-width: 360px;
+        
+                }
+            }
+    
+        .section-section2-cards {
+    
+            .section-section2-cards-container-2cards {
+                display: none;
+            }
+
+            .section-section2-cards-container-1card {
+                display: flex;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .section2 {
+    
+        .section-section2-texto-img {
+            
+    
+            .figure-section2-imgs {
+                display: none;
+    
+            
+    
+        }
+        .p-section2 {
+            width: 90%;
+            font: $irishGrover-17;
+        }
+    }
+
+    .h1-produtos {
+        font: $irishGrover-60;
+        
+    }
+
+    .section-section2-cards {
+        gap: 5px;
+    }
+
+    }
 }
