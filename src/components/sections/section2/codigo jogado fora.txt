@@ -1,0 +1,48 @@
+<div className='div-section2-area-bolinha'>
+                    <div className='div-section2-bolinha'>
+                        <div className='div-section2-seta div-section2-seta-esquerda'></div>
+                    </div>
+                </div>
+
+
+<div className='div-section2-area-bolinha'>
+                    <div className='div-section2-bolinha'>
+                        <div className='div-section2-seta div-section2-seta-direita'></div>
+                    </div>
+                </div>
+
+
+.div-section2-area-bolinha {
+            width: 80px;
+            display: flex;
+            align-items: center;
+
+            .div-section2-bolinha {
+                width: 67px;
+                height: 67px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                border-radius: 100px;
+                filter: drop-shadow(7px 7px 4px rgba(0, 0, 0, 0.25));
+
+                .div-section2-seta-esquerda {
+                    border-top: 10px solid transparent;
+                    border-bottom: 10px solid transparent;
+                    border-right: 22px solid black;
+                }
+
+                .div-section2-seta-direita {
+                    border-top: 10px solid transparent;
+                    border-bottom: 10px solid transparent;
+                    border-left: 22px solid black;
+                }
+            }
+
+            .div-section2-bolinha:hover {
+                cursor: pointer;
+                filter: none;
+            }
+        }
+    

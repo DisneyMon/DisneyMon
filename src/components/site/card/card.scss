@@ -53,6 +53,7 @@
 
     .figure-card {
         width: 52.70%;
+        min-width: 130px;
         height: 55.22%;
         padding: 1px;
         overflow-y: hidden;
@@ -82,6 +83,21 @@
     }
 }
 
-@media (max-width: 405px) {
+@media (max-width: 300px) {
+
+    .section-card {
+        width: 100%;
+    
+        .article-card {
+    
+            .p-card {
+                font: $inter-9;
+            }
+    
+            .h1-card {
+                font: $irishGrover-23;
+            }
+        }
+    }
 
 }

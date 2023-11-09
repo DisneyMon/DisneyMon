@@ -3,6 +3,7 @@ import React from 'react';
 
 import Section1 from '../../components/sections/section1/section1';
 import Section2 from '../../components/sections/section2/section2';
+import Section3 from '../../components/sections/section3/section3';
 
 export default function Treino() {
 
@@ -24,7 +25,7 @@ export default function Treino() {
 
             <section className='section-section3'>
 
-
+                <Section3 />
 
             </section>
 

@@ -1,26 +1,25 @@
 @import "../../variaveis/index";
 
-.section2 {
+.section3 {
     width: 100%;
     height: 100%;
-    background-color: #FBFFD0;
+    background-color: #2E4055;
 
-    .figure-section2 {
+    .figure-section3 {
         width: 100%;
-        height: 240px;
+        height: 449px;
         display: flex;
         align-items: center;
         justify-content: center;
 
-        .img-section2-logo {
+        .img-section3-logo {
             height: 100%;
 
         }
     }
 
-    .section-section2-texto-img {
+    .section-section3-texto-img {
         width: 100%;
-        background-image: url(../../../../public/assets/images/sections/section2/background-pokebola-section2.png);
         background-repeat: no-repeat;
         background-size: 38%;
         background-position: center;
@@ -30,18 +29,26 @@
         margin-top: 20px;
         text-align: center;
 
-        .figure-section2-imgs {
+        .figure-section3-imgs {
             width: 250px;
             height: 250px;
+            display: flex;
+            align-items: flex-end;
             overflow-y: hidden;
 
-            .img-section2-pokemon {
+            .img-section3-disney {
                 width: 100%;
                 height: 100%;
             }
+
+            .img-section3-mickey {
+                height: 95%;
+                transform: scaleX(-1);
+            }
+
         }
 
-        .p-section2 {
+        .p-section3 {
             width: 43.87%;
             max-width: 500px;
             font: $irishGrover-25;
@@ -51,29 +58,29 @@
 
     .h1-produtos {
         margin-top: 10px;
-        color: #014C8D;
+        color: black;
         font: $irishGrover-96;
         text-align: center;
         text-decoration-line: underline;
     }
 
-    .section-section2-cards {
+    .section-section3-cards {
         display: flex;
         justify-content: center;
         gap: 50px;
 
-        .section-section2-cards-container {
+        .section-section3-cards-container {
             min-height: 350px;
             display: flex;
             justify-content: center;
             gap: 50px;
         }
 
-        .section-section2-cards-container-2cards {
+        .section-section3-cards-container-2cards {
             display: none;
         }
 
-        .section-section2-cards-container-1card {
+        .section-section3-cards-container-1card {
             display: none;
         }
     }
@@ -87,15 +94,15 @@
 
 @media (max-width: 1250px) {
 
-    .section2 {
+    .section3 {
     
-        .section-section2-cards {
+        .section-section3-cards {
     
-            .section-section2-cards-container {
+            .section-section3-cards-container {
                 display: none;
             }
     
-            .section-section2-cards-container-2cards {
+            .section-section3-cards-container-2cards {
                 display: flex;
             }
         }
@@ -105,12 +112,12 @@
 
 @media (max-width: 900px) {
 
-    .section2 {
+    .section3 {
         
-            .figure-section2 {
+            .figure-section3 {
                 
         
-                .img-section2-logo {
+                .img-section3-logo {
                     width: 80%;
                     height: 80%;
                     min-width: 360px;
@@ -118,13 +125,13 @@
                 }
             }
     
-        .section-section2-cards {
+        .section-section3-cards {
     
-            .section-section2-cards-container-2cards {
+            .section-section3-cards-container-2cards {
                 display: none;
             }
 
-            .section-section2-cards-container-1card {
+            .section-section3-cards-container-1card {
                 display: flex;
             }
         }
@@ -134,18 +141,18 @@
 
 @media (max-width: 600px) {
 
-    .section2 {
+    .section3 {
     
-        .section-section2-texto-img {
+        .section-section3-texto-img {
             
     
-            .figure-section2-imgs {
+            .figure-section3-imgs {
                 display: none;
     
             
     
         }
-        .p-section2 {
+        .p-section3 {
             width: 90%;
             font: $irishGrover-17;
         }
@@ -156,7 +163,7 @@
         
     }
 
-    .section-section2-cards {
+    .section-section3-cards {
         gap: 5px;
     }
 
