@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './global.css';
 
 import Login from './pages/login/login';
+import Produtos from './pages/produtos/produtos';
 import Site from './pages/site/site';
 import Treino from './pages/treino/treino';
 
@@ -16,6 +17,7 @@ root.render(
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Site />} />
         <Route path="/treino" element={<Treino />} />
+        <Route path="/produtos" element={<Produtos />} />
         
       </Routes>
     </BrowserRouter>

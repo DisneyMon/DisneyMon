@@ -1,14 +1,13 @@
 @import '../../components/variaveis/index';
 
-
-nav {
+.header-produto-section1 {
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    font-size: 24px;
     transition: background 0.3s;
+    display: inline;
 }
 
 h1 {
@@ -39,17 +38,17 @@ nav:hover span a {
     font-family: sans-serif;
 }
 
-.site-page {
+.produto-page {
     overflow-x: hidden;
-    background-color: aquamarine;
+    background-color: #4a92af;
 }
 
-.background {
+.background-produto {
     background-color: aquamarine;
     min-height: 100vh;
-    background-image: url(../../../public/assets/images/site/background.png);
+    background-image: url(../../../src/components/img/fundoproduto3.png);
     background-repeat: no-repeat;
-    background-size: 50%;
+    
     background-position: center;
     display: flex;
     align-items: center;
@@ -62,12 +61,12 @@ nav:hover span a {
 }
 
 
-.About {
+.About-produtos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FBFFD0;
-    color: black;
+    background-color: #4a92af;
+    color: rgb(255, 253, 253);
     font-size: 16px;
 
 
@@ -125,7 +124,6 @@ nav:hover span a {
 
 
 .About-disney {
-
 
     display: flex;
     align-items: center;
@@ -224,19 +222,19 @@ nav:hover span a {
 
 }
 
-.conheca-os-produtos {
+.conheca-os-produtos-produto {
     width: 100%;
     justify-content: center;
     gap: 100px;
     display: flex;
-    background-color: #FBFFD0;
+    background-color: #4a92af;
     text-align: center;
 
 }
 
-.h3-conheca-produtos {
+.h3-conheca-produtos-produtos {
     margin-top: 10px;
-    color: #014C8D;
+    color: #ffffff;
     font-family: Irish Grover;
     font-size: 96px;
     font-style: normal;
