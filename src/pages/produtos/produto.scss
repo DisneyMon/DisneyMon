@@ -10,12 +10,12 @@
     display: inline;
 }
 
-h1 {
-    color: white;
-    font-size: 24px;
-    transition: text-shadow 0.3s;
-}
-
+.h1-produto {
+    font-size: 0px;
+    text-align: center;
+    margin-top: 50px; 
+    text-shadow: 2px 2px 5px #000;
+  }
 span a {
     color: white;
     text-decoration: none;
@@ -48,8 +48,8 @@ nav:hover span a {
     min-height: 100vh;
     background-image: url(../../../src/components/img/fundoproduto3.png);
     background-repeat: no-repeat;
-    
     background-position: center;
+    background-size: 100%;
     display: flex;
     align-items: center;
 }

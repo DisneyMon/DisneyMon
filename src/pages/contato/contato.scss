@@ -1,0 +1,40 @@
+.contato-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+    
+    
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #007acc;
+        /* Azul escuro, você pode ajustar conforme necessário */
+    }
+
+    p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .informacoes-contato {
+        p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+    }
+
+    nav {
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        font-size: 24px;
+        transition: background 0.3s;
+    }
+
+}
+

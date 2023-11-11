@@ -7,71 +7,80 @@ export default function Produto() {
     return (
 
         <div className='produto-page'>
-            <header className='header-produto-section1'>
-                <img className='img-site-section img-site-section1-aleatoria' src="/assets/images" alt="" />
+            <header className="header-produto-section1">
 
-                <nav className='nav-produto'>
-                    <h1>
-                        Logo
-                    </h1>
+
+
+
+                <nav>
                     <span>
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Contact</a>
+                        <img src="/assets/images/poke-bola.png" alt="poke bola" />
+                        <a href="/">Home</a>
+                        <a href="/sobrenos">Sobre Nós</a>
+                        <a href="/contato">Contato</a>
                     </span>
                 </nav>
 
+
             </header>
-            <section class="background-produto" id="background-produto">
+            <main className="main-produtos">
+                <div className="container">
+                    <div className="title">
+                        <h1 className="title__text">Produtos</h1>
+                        <span className="title__transparent">Produtos</span>
+                    </div>
+                    <div className="description">
+                        <h2 className="description__title">Produtos DisneyMon</h2>
+                        <p className="description__text">
+                            Os melhores produtos do mercador de Pelucias!!
+                        </p>
+                    </div>
+
+                </div>
+            </main>
+
+            <img className="pikachu-image" src="/assets/images/pikachu.png" alt="pikachu" />
 
 
-            </section>
-
-            <section class="About-produtos">
-
-                <h3 class="h3-conheca-produtos-produtos">Produtos</h3>
-
-            </section>
-
-            
-            <section class="conheca-os-produtos-produto">
-                
-
-                <Card/>
-                <Card/>
-                <Card/>
-
-
-            </section>
 
             <section class="conheca-os-produtos-produto">
-                
 
-                <Card/>
-                <Card/>
-                <Card/>
+
+                <Card />
+                <Card />
+                <Card />
 
 
             </section>
 
             <section class="conheca-os-produtos-produto">
-                
 
-                <Card/>
-                <Card/>
-                <Card/>
+
+                <Card />
+                <Card />
+                <Card />
+
+
+            </section>
+
+            <section class="conheca-os-produtos-produto">
+
+
+                <Card />
+                <Card />
+                <Card />
 
 
             </section>
 
 
-         
+
 
 
 
             <footer className="footer-site">
                 <aside>
-                
+
                     <p>DisneyMon © 2023 - Lana, Leonardo, Alvaro e Rodrigo.</p>
                 </aside>
                 <nav >
